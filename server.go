@@ -55,7 +55,7 @@ import (
 )
 
 const (
-	defaultServerMaxReceiveMessageSize = 1024 * 1024 * 4
+	defaultServerMaxReceiveMessageSize = 1024 * 1024 * 40
 	defaultServerMaxSendMessageSize    = math.MaxInt32
 
 	// Server transports are tracked in a map which is keyed on listener
